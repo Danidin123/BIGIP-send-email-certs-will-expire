@@ -11,4 +11,7 @@ AuthUser=XXXX
 AuthPass=XXXX
 TLS_CA_FILE=/etc/ssmtp/ca-bundle.crt
 
+For tests, you can use that command to create a certifiacte on the BIGIP:
+tmsh create sys crypto key SOL1testcert gen-certificate lifetime 20 common-name SOL1testcert.com
+
 
