@@ -83,4 +83,4 @@ cut -f2- > sorted.txt
 mv sorted.txt will_exp.txt
 
 # Call to the script that will send the email
-./mail_it.sh
+./send_mail_with_attachment.sh
