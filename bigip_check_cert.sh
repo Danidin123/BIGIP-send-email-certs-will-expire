@@ -64,7 +64,7 @@ while read line; do
 done < "$file"
 
 # Srot the file by the days
-ddays=($(grep -oP '\d+ days' will_exp.txt | cut -d' ' -f1))
+days=($(grep -oP '\d+ days' will_exp.txt | cut -d' ' -f1))
 
 # Read each line of the file into an array
 while read -r line; do
